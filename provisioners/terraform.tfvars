@@ -1,0 +1,7 @@
+ami = "ami-00bb6a80f01f03502"
+instance_type = "t2.micro"
+key_name = "my-demo-key"
+user_name = "ubuntu"
+file_path = "./pem-key/my-demo-key.pem"
+source_path = "./conf/install.sh"
+destination_path = "/home/ubuntu/install.sh"
