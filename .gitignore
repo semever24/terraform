@@ -1,0 +1,54 @@
+ec2creation/.terraform/
+pemkeycreation/.terraform/
+datafilter/.terraform/
+modules/.terraform/
+nullresource/.terraform/
+provisioners/.terraform/
+fileconnect/.terraform/
+backend/.terraform/
+securitygroup/.terraform/
+remotemodules/.terraform/
+eks&terraform/terraform/.terraform/
+eks&terraform/eks-vpc/.terraform/
+eks&terraform/vpc/.terraform/
+cicd/setup/terraform_code/ec2_server/.terraform/
+cicd/setup/terraform_code/eks_code/.terraform/
+
+*.pem
+*.github
+*.vscode
+node_modules/
+docker/testapp/node_modules/.bin/mime
+docker/testapp/node_modules/.package-lock.json
+k8s/aws/
+
+github-actions/bmi/.mvn
+github-actions/bmi/target
+
+helm/python/venv/
+
+docker/docker-compose-demo/app/node_modules
+docker/docker-compose-demo/app/.DS_Store
+docker/docker-compose-demo/app/.idea/*
+
+# dependencies
+cicd/amazonprime/node_modules
+cicd/amazonprime/.pnp
+cicd/amazonprime/.pnp.js
+
+# testing
+cicd/amazonprime/coverage
+
+# production
+cicd/amazonprime/build
+
+# misc
+cicd/amazonprime/.DS_Store
+cicd/amazonprime/.env.local
+cicd/amazonprime/.env.development.local
+cicd/amazonprime/.env.test.local
+cicd/amazonprime/.env.production.local
+
+cicd/amazonprime/npm-debug.log*
+cicd/amazonprime/yarn-debug.log*
+cicd/amazonprime/yarn-error.log*
